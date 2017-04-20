@@ -11,6 +11,7 @@ import selenium.utils.DriverManager;
 /**
  * Created by Maryna on 01.04.2017.
  */
+//comment
 public class NewMailPage {
     private WebDriver driver;
     @FindBy(name = "to")
