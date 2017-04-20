@@ -17,6 +17,7 @@ public class NewMailPage {
     @FindBy(name = "to")
     private InputField receiver;
 
+    int k;
     @FindBy(name = "subjectbox")
     private InputField subject;
 
