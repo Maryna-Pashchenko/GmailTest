@@ -3,12 +3,9 @@ package selenium.buisness;
 import selenium.model.User;
 import selenium.pages.DraftPage;
 
-/**
- * Created by Maryna on 06.04.2017.
- */
 public class DraftsBO {
     private DraftPage draftPage;
-    User user;
+    private User user;
 
     public DraftsBO(User user) {
         this.user = user;
@@ -17,5 +14,8 @@ public class DraftsBO {
 
     public void openFirstDraft(){
         draftPage.clickOnFirstDraft();
+    }
+    public void func(){
+
     }
 }
