@@ -17,5 +17,8 @@ public class DraftsBO {
     }
     public void function(){
 
+        int x = 6;
+        int k;
+
     }
 }
