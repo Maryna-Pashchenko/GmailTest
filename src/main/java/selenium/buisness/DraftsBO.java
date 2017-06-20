@@ -15,7 +15,7 @@ public class DraftsBO {
     public void openFirstDraft(){
         draftPage.clickOnFirstDraft();
     }
-    public void func(){
+    public void function(){
 
     }
 }
